@@ -9,31 +9,33 @@
     <!-- Bootstrap -->
     <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-    .grey { background-color: #ccc; padding: 20px}
+    .grey { background-color: #ccc;}
+    .blue { background-color: blue;}
+    .pink { background-color: pink;}
     </style>
+
   </head>
   <body>
     <header></header>
 
     <div class="container">
-      <div class="row">
-        <div class="col-xs-6 col-md-3">
-          <div class="well">I was making websites in the 90s, when the sites and codes were much simpler than this.</div>
+        <div class="row">
+            <div class="col-md-9 grey">
+                <div class="well">First Column</div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="well">Nested Columns</div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="well">Nested Columns</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 blue">
+                <div class="well">Second Column</div>
+            </div>
         </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="well">LARGE</div>
-        </div>
-        <div class="clearfix hidden-md hidden-lg"></div>
-        <div class="col-xs-6 col-md-3">
-          <div class="well">LARGE</div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="well">LARGE</div>
-        </div>        
-      </div>        
     </div>
-
-    
 
     <footer></footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
