@@ -1,0 +1,22 @@
+{
+  "name": "wiredwiki",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "cizrage <thu.ya.a@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/cizrage/bootstrap",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
