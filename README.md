@@ -29,3 +29,15 @@ $ node server.js
 2. Run browsersync
 
 $ browser-sync start --proxy localhost:3000 --files='*.*'
+
+
+Bower
+-----
+npm install -g bower
+
+bower init
+
+bower install jquery --save
+
+bower install bootstrap --save
+
