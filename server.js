@@ -4,6 +4,7 @@ var path    = require("path");
 
 
 app.use('/bower_components',  express.static(__dirname + '/bower_components'));
+app.use('/files',  express.static(__dirname + '/files'));
 
 app.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/1.html'));

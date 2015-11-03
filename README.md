@@ -30,6 +30,8 @@ $ node server.js
 
 $ browser-sync start --proxy localhost:3000 --files='*.*'
 
+browser-sync start --files="**/*" --proxy="localhost:3000" --no-notify
+
 
 Bower
 -----

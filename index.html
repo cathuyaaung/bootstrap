@@ -1,0 +1,469 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Project</title>
+    <!-- Bootstrap -->
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    body {
+        padding-top:40px;
+    }
+
+    .slider-size {
+        height:500px; 
+        /*This is your slider height*/
+    }
+    .carousel {
+        /*center your carousel if other than 100%*/
+        width:100%;
+        margin: 0 auto;
+    }
+
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target="#myNavBar">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="myNavBar">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="" class="navbar-brand">Project</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <a href="" class="btn btn-info navbar-btn navbar-right">Download</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="#feedback">Feedback</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Bootstrap Project</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <div class="btn-group">
+                <a href="" class="btn btn-lg btn-warning">Download App</a>
+                <a href="" class="btn btn-lg btn-default">Visit Store</a>
+                <a href="" class="btn btn-lg btn-warning">Spread the word</a>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Jumbotron -->
+
+    <!-- Feedack -->
+    <div class="container" id="feedback">
+        <section>
+            <div class="page-header">
+                <h2>Feedback <small>Check out the awesome feedback</small></h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <blockquote>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <footer>
+                            John Doe
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="col-lg-4">
+                    <blockquote>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <footer>
+                            John Doe
+                        </footer>
+                    </blockquote>                    
+                </div>
+
+                <div class="col-lg-4">
+                    <blockquote>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <footer>
+                            John Doe
+                        </footer>
+                    </blockquote>                    
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- End Feedback -->
+
+    <!-- Call to action -->
+    <section>
+        <div class="well">
+            <div class="container text-center">
+                <h3>Subscribe for more free stuff</h3>
+                <p>Enter your name and email</p>
+                <form action="" class="form-inline">
+                    <div class="form-group">
+                        <label for="subscription">Subscribe</label>
+                        <input type="text" class="form-control" id="subscription" 
+                        placeholder="Your name">                        
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="text" class="form-control" id="email" 
+                        placeholder="Enter your email">
+                    </div>
+                    <button class="btn btn-warning">Subscribe</button>
+                    <hr>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Call to action -->
+
+    <!-- Gallery -->
+    <div class="container" id="gallery">
+        <section>
+            <div class="page-header">
+                <h2>Gallery. <small>Check out the Awesome Gallery</small></h2>
+            </div>
+            <!-- Carousel -->
+            <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#screenshot-carousel" data-slide-to="0"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <!-- <img src="/files/highway.jpg" alt="Highway"> -->
+                        <div class="slider-size"
+                        style="background:url(/files/highway.jpg) center center;
+                        background-size:cover;">
+
+                        <div class="carousel-caption">
+                            <h3>Highway image</h3>
+                            <p>This is an awesome image of a highway</p>                            
+                        </div>
+                        </div>                        
+                    </div>
+                    <div class="item">
+                        <!-- <img src="/files/river.jpg" alt="Highway"> -->
+                        <div class="slider-size"
+                        style="background:url(/files/river.jpg) center center;
+                        background-size:cover;">
+                        <div class="carousel-caption">
+                            <h3>River image</h3>
+                            <p>This is an awesome image of a river</p>                            
+                        </div>
+                        </div>                        
+                    </div>
+                    <div class="item">
+                        <!-- <img src="/files/street.jpg" alt="Highway"> -->
+                        <div class="slider-size"
+                        style="background:url(/files/street.jpg) center center;
+                        background-size:cover;">                        
+                        <div class="carousel-caption">
+                            <h3>Street image</h3>
+                            <p>This is an awesome image of a street</p>                            
+                        </div>
+                        </div>                        
+                    </div>
+                    <div class="item">
+                        <!-- <img src="/files/painting.jpg" alt="Highway"> -->
+                        <div class="slider-size"
+                        style="background:url(/files/painting.jpg) center center;
+                        background-size:cover;">
+                        <div class="carousel-caption">
+                            <h3>Painting image</h3>
+                            <p>This is an awesome image of a painting</p>                            
+                        </div>
+                        </div>                        
+                    </div>
+                </div>
+                <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+            </div>
+            <!-- End of Carousel -->
+        </section>
+    </div>
+    <!-- End of Gallery -->
+
+    <!-- Features -->
+    <div class="container" id="features">
+        <section>
+            <div class="page-header">
+                <h2>Features <small>Some of the coolest features of Bootstrap</small></h2>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-8">
+                    <h3>This is the heading</h3>    
+                    <p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit. </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="/files/imac.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <h3>This is the heading</h3>    
+                    <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="/files/smartphone.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <h3>This is the heading</h3>    
+                    <p>My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="/files/user.jpg" class="img-responsive" alt="">
+                </div>
+            </div>  
+
+            <hr>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-body">
+                            <span class="glyphicon glyphicon-ok"></span>
+                            <h4>This is the heading</h4>
+                            <p>
+                                Toad-like smile Flourish and Blotts he knew I’d come back Quidditch World Cup. Fat Lady baubles banana fritters fairy lights Petrificus Totalus. So thirsty, deluminator firs’ years follow me 12 inches of parchment. Head Boy start-of-term banquet Cleansweep Seven roaring lion hat. Unicorn blood crossbow mars is bright tonight, feast Norwegian Ridgeback. Come seek us where our voices sound, we cannot sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-default text-justify">
+                        <div class="panel-body">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <h4>This is the heading</h4>
+                            <p>
+                                Toad-like smile Flourish and Blotts he knew I’d come back Quidditch World Cup. Fat Lady baubles banana fritters fairy lights Petrificus Totalus. So thirsty, deluminator firs’ years follow me 12 inches of parchment. Head Boy start-of-term banquet Cleansweep Seven roaring lion hat. Unicorn blood crossbow mars is bright tonight, feast Norwegian Ridgeback. Come seek us where our voices sound, we cannot sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-default text-right">
+                        <div class="panel-body">
+                            <span class="glyphicon glyphicon-play-circle"></span>
+                            <h4>This is the heading</h4>
+                            <p>
+                                Toad-like smile Flourish and Blotts he knew I’d come back Quidditch World Cup. Fat Lady baubles banana fritters fairy lights Petrificus Totalus. So thirsty, deluminator firs’ years follow me 12 inches of parchment. Head Boy start-of-term banquet Cleansweep Seven roaring lion hat. Unicorn blood crossbow mars is bright tonight, feast Norwegian Ridgeback. Come seek us where our voices sound, we cannot sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <!-- End of Features -->
+
+    <!-- FAQ -->
+    <div class="container" id="faq">
+        <section>
+            <div class="page-header">
+                <h2>FAQ <small>Frequenty Asked Questions</small></h2>
+            </div>
+
+            <div class="panel-group" id="accordian">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-1" data-toggle="collapse" data-parent="accordian">
+                                Question 1
+                            </a>
+                        </div>
+                        <div id="collapse-1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <p>
+                                    You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-2" data-toggle="collapse" data-parent="accordian">
+                                Question 2
+                            </a>
+                        </div>
+                        <div id="collapse-2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-3" data-toggle="collapse" data-parent="accordian">
+                                Question 3
+                            </a>
+                        </div>
+                        <div id="collapse-3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+    </div>
+    <!-- End of FAQ -->
+
+    <!-- Contact Us  -->
+    <div class="container" id="contactus">
+        <section>
+            <div class="page-header">
+                <h2>
+                    Contact Us <small>Contact us anytime for more</small>
+                </h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <p>
+                        Send us a message, or contact us from the address below
+                    </p>
+                    <address>
+                        <strong>Thomas Thuya Aung, Pte, Ltd</strong><br>
+                        111 Jurong West Street 123 <br>
+                        Singapore 321123 <br>
+                    </address>
+                </div>
+
+                <div class="col-lg-8">
+                    <form action="" class="form-horizontal">
+
+                        <div class="form-group">
+                            <label for="user-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-Email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-Email" placeholder="Enter your Email">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="user-website" class="col-lg-2 control-label">Website</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-website" placeholder="If you have any">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-msg" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" name="user-msg" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            
+
+        </section>
+    </div>
+    <!-- End of Contact Us  -->
+
+
+    <!-- Footer -->
+    <footer>
+
+        <hr>
+
+        <div class="container text-center">
+            <h3>Subscribe for more free stuff</h3>
+            <p>Enter your name and email</p>
+            <form action="" class="form-inline">
+                <div class="form-group">
+                    <label for="subscription">Subscribe</label>
+                    <input type="text" class="form-control" id="subscription" 
+                    placeholder="Your name">                        
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="text" class="form-control" id="email" 
+                    placeholder="Enter your email">
+                </div>
+                <button class="btn btn-warning">Subscribe</button>
+                <hr>
+            </form>
+
+            <hr>
+
+            <ul class="list-inline">
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">YouTube</a></li>
+            </ul>
+        </div>
+
+    </footer>
+    <!-- End of Footer -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
